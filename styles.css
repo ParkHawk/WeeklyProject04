@@ -1,0 +1,64 @@
+body {
+  background-color: #60d9f1;
+}
+
+header{
+  width: 100%;
+  margin: 0;
+}
+
+h1{
+  margin: 0 40%;
+  font-size: 24px;
+}
+
+.player{
+  width: 100% auto;
+  margin: 0;
+}
+
+#music-player{
+  width: 75%;
+  margin: 0 12.5%;
+}
+
+#search-form{
+  margin: 0 45%;
+}
+
+#button{
+  margin: 15px;
+  width: 100px;
+  height: 25px;
+}
+
+#results{
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  justify-content: space-around;
+}
+
+.bigBox{
+  width: 200px;
+  height: auto;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+  margin-top: 15px;
+  margin-bottom: 15px;
+}
+
+
+h3{
+  font-size: 14px;
+}
+
+.band{
+  font-size: 18px;
+}
+
+p{
+  display: none;
+}
