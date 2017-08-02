@@ -11,6 +11,7 @@ let results = document.getElementById("results");
 let input = document.getElementById("artist");
 let button = document.getElementById("button");
 let audio = document.getElementById("music-player");
+let search = document.getElementById("search-form");
 console.log("start")
 
 button.addEventListener("click", function() {
@@ -28,8 +29,7 @@ button.addEventListener("click", function() {
           div.className = "bigBox";
           div.value = `${data.results[i].previewUrl}`
 
-          div.innerHTML = `<img src = "${data.results[i].artworkUrl100}"> <h3>${data.results[i].trackName}</h3><h1 class = "band">${data.results[i].artistName}</h1>
-          <p>${data.results[i].previewUrl}</p>`
+          div.innerHTML = `<img src = "${data.results[i].artworkUrl100}"> <h3>${data.results[i].trackName}</h3><h1 class = "band">${data.results[i].artistName}</h1>`
 
           div.addEventListener("click", function() {
             audio.src = div.value;
